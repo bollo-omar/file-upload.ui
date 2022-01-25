@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size : 1.5em;
+}
+ul{
+  list-style: none;
+  display: inline-flex;
+  
+}
+ul li{
+  padding: 5px;
+  margin-right: 100px;
+
+}
+
+a{
+  color : #fff;
+  font-size : 1.5em;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+a:hover{
+  color: darkslategray;
+}
+label{
+  border: 1px #555 solid;
+  padding: 10px;
+  width: 100%;
+  background-color: #eee;
+  font-size: .8em;
+}
+
+input[type="file"]{
+  margin-bottom: 10px;
+  
+}
+input[type=file]::-webkit-file-upload-button {
+  border: 2px solid #6c5ce7;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #a29bfe;
+  transition: 1s;
+}
+
+input[type=file]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #a29bfe;
+  transition: 1s;
+}
+
+input[type=file]::-ms-browse:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+input[type=file]::-webkit-file-upload-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+input{
+  width: 100%;
+} 
+button{
+  width: calc(100% + 22px);
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #12429b;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: .8em;
+  
+}
+button:hover{
+  background-image: linear-gradient(rgba(0, 0, 0,.2),rgba(0, 0, 0,.2)); 
+}
